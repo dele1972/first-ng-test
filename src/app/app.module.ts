@@ -6,22 +6,7 @@ import { ChildAComponent } from './parent/child-a/child-a.component';
 import { ParentComponent } from './parent/parent.component';
 import { Menu2Component } from './menu2/menu2.component';
 
-import { Routes, RouterModule } from '@angular/router';
-
-const routes: Routes = [
-  {
-    path: '',
-    component: AppComponent
-  },
-  {
-    path: 'menu',
-    component: Menu2Component
-  },
-  {
-    path: 'parent',
-    component: ParentComponent
-  }
-];
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -31,8 +16,8 @@ const routes: Routes = [
     Menu2Component
   ],
   imports: [
-    BrowserModule,
-    RouterModule.forRoot(routes, {useHash:false})
+    AppRoutingModule,
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
