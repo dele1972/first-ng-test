@@ -3,7 +3,7 @@ import { Component, OnInit, Input } from '@angular/core';
 @Component({
   selector: 'app-child-a',
   template: `
-    <h3>Child A</h3>
+    <h3>Child</h3>
     <p>
       {{thisIsPublic}}<br />
       {{childMessage}}
@@ -24,7 +24,7 @@ import { Component, OnInit, Input } from '@angular/core';
   `,
   styles: []
 })
-export class ChildAComponent implements OnInit {
+export class ChildComponent implements OnInit {
 
   public thisIsPublic: string;
 
