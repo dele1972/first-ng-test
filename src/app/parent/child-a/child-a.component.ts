@@ -24,7 +24,7 @@ import { Component, OnInit, Input } from '@angular/core';
   `,
   styles: []
 })
-export class ChildComponent implements OnInit {
+export class ChildAComponent implements OnInit {
 
   public thisIsPublic: string;
 

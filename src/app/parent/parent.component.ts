@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-parent',
@@ -20,13 +20,10 @@ import { Component, OnInit } from '@angular/core';
   `,
   styles: []
 })
-export class ParentComponent implements OnInit {
+export class ParentComponent {
 
   private messageFromParent = "private Nachricht vom Parent";
   
   constructor() { }
-
-  ngOnInit() {
-  }
 
 }
