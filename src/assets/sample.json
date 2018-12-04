@@ -1,0 +1,14 @@
+{
+    "main": [
+        {
+            "title": "Datenaustausch",
+            "description": "Anhand kleiner Projekte sollen die verschiedenen Möglichkeiten eines Datenaustauschs zwischen Komponenten dargestellt werden.",
+            "issues":   [
+                {
+                    "title": "Parent -> Child (property Binding)",
+                    "component": "parent"
+                }
+            ]
+        }
+    ]
+}
